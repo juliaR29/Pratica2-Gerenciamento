@@ -51,7 +51,7 @@ public class Calculadora {
 
         System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
 
-     public static double calcularPorcentagem(double num, float porcentagem) {
+     public static double calcularPorcentagem(double num, double porcentagem) {
         return num * (porcentagem / 100);
         }
 
